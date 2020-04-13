@@ -40,6 +40,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h1>Client Monitoring</h1>
         {
           this.state.clients.map(client => (
             <div key={client.socketID}>
